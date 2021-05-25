@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Tutorial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* type of selectors*/
+        /* Heading selector */
+        /* h1{
+            color : red;
+            background : aqua;
+        } */
+        /* ID selector "#* used for class*/
+            /* #firstPara{
+                color : red;
+                background-color: yellow;
+            } */
+            /* Element Selector */
+            /* p{
+                color : blue;
+                background-color: rgb(60, 255, 0);
+            } */
+            /* Class Selector "." used for class */
+            /* .red{
+                color : red;
+                background-color: gray;
+            } */
+    </style>
+</head>
+<!-- <frameset cols="25%,50%,25%">
+    <frame name="left" src="/html/top_frame.htm"/>
+    <frame name = "center" src = "/html/main_frame.htm" />
+    <frame name = "right" src = "/html/bottom_frame.htm" />
+ </frameset> -->
+<body>
+    <h1 align = "center"><span>This is Heading 1</span></h1>
+    <h2 align = "right">This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6>
+    <hr width = "10000px" />
+    <div>
+        <ul class = "list">
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+        </ul>
+        
+        <ol class = "list">
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+            <li class="items">Items child</li>
+        </ol>
+    </div>
+    <!--This  is a comment-->
+    <p>I am a <a href = "www.google.com" target = "_blank">link</a></p>
+    <hr width = "50%"/>    
+    <img src = "https://thumbs.dreamstime.com/b/bright-spring-scenery-krabi-island-pig-photomontage-adds-beauty-to-beauty-natural-conceptual-backgrounds-bright-spring-157599490.jpg" width = "50%" height = "60%" border = "2px" alt = "image of a beach" />
+    <p align = "center">I am Line <br/>Break</p>
+    <hr/>
+    <div id="media">
+        <h1><span>Media</span></h1>
+    <iframe height="150"  width="300" src="https://www.youtube.com/embed/jmEvzoFO14E" allowfullscreen frameborder="0"></iframe>
+    <hr/>
+    </div>
+    <div ID = "paragraph">
+        <p>I am an <span style = "color : red">Important</span> message</p>
+        <p>I am a regular paragraph</p>
+        <p><i>I am Italic Paragraph</i></p>
+        <p><b>I am Bold Paragraph</b></p>
+        <p><big>I am Big Paragraph</big></p>
+        <p><small>I am Small Paragraph</small></p>
+        <p>Hello <sub>I am sub Paragraph</sub></p>
+        <p>Hi <sup>I am super Paragraph</sup></p>
+        <p><strong>I am strong Paragraph</strong></p>
+        <p><ins>I am inserted paragraph</ins></p>
+        <p><del>I am deleted paragraph</del></p>
+    </div>
+    <hr/>
+    <table align = "center" border = "2">
+        <tr>
+            <td bgcolor = "red">Red</td>
+            <td bgcolor = "blue">Blue</td>
+            <td bgcolor = "green">Green</td>
+        </tr>
+        <tr>
+            <td>First</td>
+            <td>Second</td>
+            <td>Third</td>
+        </tr>
+        <tr>
+            <td>Night</td>
+            <td colspan = "2" >Morning</td>
+        </tr>
+    </table>
+    <form action="https://www.google.com" target="_blank" method="GET" align="center">
+        Name:<input type="text" name="username"/><br/>
+        Password:<input type="password" name="password"/><br/>
+        <input type="radio" name="gender" value="male"/>Male<br/>
+        <input type="radio" name="gender" value="female"/>Female<br/>
+        <input type="checkbox" name="gender" value="1"/> Male<br/>
+        <input type="checkbox" name="gender" value="2"/> Female<br/>
+        <input  type="submit" value="Submit">
+    </form>
+</body>
+</html>

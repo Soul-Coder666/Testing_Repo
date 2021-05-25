@@ -1,0 +1,18 @@
+body{
+    font-family: 'Handlee', cursive;
+    background-color: rgb(245, 186, 201);
+}
+#paragraph{
+    background-color: cyan;
+}
+h1{
+    color : blue;
+}
+h1 span{
+    border : 4px dashed #d5204d;
+    padding: 10px;
+}
+#media{
+    background-color: rgb(243, 243, 93);
+    font-style: 'timesinroman' ;
+}
